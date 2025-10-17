@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  background-color: #303334;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  background-color: #444;
+  border: 1px solid #eee;
+  box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.3);
+  max-width: 360px;
+  margin: auto;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #ddd;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 2px solid #ddd;
+  position: relative;
+}
+
+.image img {
+  display: block;
+  max-width: 100%;
+  border-radius: 100%;
+  border: 3px solid transparent;
+}
+
+.card h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.card h3 {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #03dac6;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 0.9rem;
+  padding: 18px 0;
+  font-weight: 600;
+  color: #aaa;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.resume .btn {
+  border: none;
+  margin-top: 14px;
+  padding: 8px;
+  display: inline-block;
+  background-color: #6be3d2;
+  color: #020304;
+  cursor: pointer;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.resume .btn:hover {
+  background-color: #03dac6;
+  color: #000;
+}
+
+.social-media {
+  padding: 12px 0;
+}
+
+.social-media a {
+  display: inline;
+  color: #eee;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
